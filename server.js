@@ -3,7 +3,7 @@ const express = require("express")
 const server = express()
 
 server.all("/", (req, res) => {
-  res.send('<meta http-equiv="refresh" content="0; URL=https://phantomcodes.ga/credits"/>')
+  res.send('<sub my channel https://www.youtube.com/channel/UCsjIIyAQDmDykjvaFELH_Fg"/>')
 })
 
 function keepAlive() {
